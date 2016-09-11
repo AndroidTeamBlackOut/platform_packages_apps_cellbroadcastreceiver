@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2012 The Android Open Source Project
+** Copyright 2016 The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="2dip"
             android:visibility="gone"
-            android:background="@android:color/holo_blue_light" />
+            android:background="@color/dialog_divider_color" />
         <LinearLayout android:id="@+id/title_template"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="2dip"
             android:visibility="gone"
-            android:background="@android:color/holo_blue_light" />
+            android:background="@color/dialog_divider_color" />
     </LinearLayout>
 
     <LinearLayout android:id="@+id/contentPanel"

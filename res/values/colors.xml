@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
- * Copyright (C) 2011 The Android Open Source Project
+ * Copyright (C) 2016 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,5 +24,9 @@
 
     <color name="cell_broadcast_color_primary">#ff263238</color>
     <color name="cell_broadcast_color_primary_dark">#ff21272b</color>
+
+    <color name="dialog_divider_color">@android:color/holo_blue_light</color>
+    <color name="list_container_background_color">@android:color/white</color>
+    <color name="list_container_cache_color_hint_color">@android:color/white</color>
 </resources>
 

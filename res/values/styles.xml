@@ -2,7 +2,7 @@
 <!--
 /*
 **
-** Copyright 2012 The Android Open Source Project
+** Copyright 2016 The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -24,4 +24,7 @@
 
     <style name="CellBroadcastSettingsTheme" parent="android:Theme.Material.Settings" />
 
+    <style name="CellBroadcastListActivityTheme" parent="@android:style/Theme.Material.Light" />
+
+    <style name="CellBroadcastAlertDialog" parent="@android:style/Theme.Material.Light.Dialog" />
 </resources>
